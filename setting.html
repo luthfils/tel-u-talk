@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>imk</title>
+	
+	<link rel="shortcut icon" href="favicon.ico">
+	
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+	<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	
+	
+</head>
+<body>
+<div data-role="page" data-theme="tema-3" class="home">
+	<div data-role="header" data-position="fixed" role="banner" class="ui-header ui-bar-inherit btn-header">
+		<h1 class="ui-title" role="heading" aria-level="1">Basic Setting</h1>
+		<div class="ui-nodisc-icon btn-icon">
+			<a class="ui-btn-left ui-btn"  data-rel="back" href="#" data-transition="slidefade" style="font-size: 25px;top: -5px;left: 0;"><i class="fa fa-angle-left"></i></a>
+			<a class="ui-btn-right ui-btn "  href="home.html" data-transition="slidefade"><i class="fa fa-home"></i></a>
+		</div>
+	</div>
+	<div data-role="content" class="nopadding">
+		<div class="main-content setting">
+			<ul data-role="listview" data-inset="true">
+			<li data-role="list-divider" class="listdivider">Notofication</li>	
+				<li class="list">
+					<p>New Article</p>
+					<div class="flip">
+						<select data-theme="a" name="slider2" id="slider2" data-role="slider">
+							<option value="off"></option>
+							<option value="on"></option>
+						</select>
+					</div>
+				</li>
+				<li class="list">
+					<p>Article Comment</p>
+					<div class="flip">
+						<select data-theme="a" name="slider2" id="slider2" data-role="slider">
+							<option value="off"></option>
+							<option value="on"></option>
+						</select>
+					</div>
+				</li>
+				<li data-role="list-divider" class="listdivider">Advance Options</li>
+				<li class="list">
+					<p>Mute</p>
+					<div class="flip">
+						<select data-theme="a" name="slider2" id="slider2" data-role="slider">
+							<option value="off"></option>
+							<option value="on"></option>
+						</select>
+					</div>
+				</li>
+				<li class="list">
+					<p>Vibrate</p>
+					<div class="flip">
+						<select data-theme="a" name="slider2" id="slider2" data-role="slider">
+							<option value="off"></option>
+							<option value="on"></option>
+						</select>
+					</div>
+				</li>
+				<!--
+				<li class="list empat">
+					<a href="#">
+					Sound
+					<span class="ui-li-count">Bell</span></a>
+				</li>
+				-->
+				<li data-role="list-divider" class="listdivider">Sounds</li>
+				<li class="list empat lima">
+					<select name="select-native-1" id="select-native-1">
+						<option value="1">Choose Sound</option>
+						<option value="2">Bell 1</option>
+						<option value="3">Bell 2</option>
+						<option value="3">Bell 5</option>
+					</select>
+				</li>
+			</ul>
+		</div>
+
+	</div><!-- /content -->
+
+
+</div><!-- /page -->
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.5.js"></script>
+</body>
+</html>
